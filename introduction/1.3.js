@@ -1,2 +1,4 @@
-let userName = readlineSync.question("What's your name?");
-console.log("He's called " + userName);
+const readlineSync = require("readline-sync")
+
+let firstName = readlineSync.question("What's your name?");
+console.log("Hello " + firstName);
