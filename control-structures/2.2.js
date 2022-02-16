@@ -7,8 +7,8 @@ if (min > max){
 }else{ 
 let current= new Number(readlineSync.question("Good, now choose a current number"));
 if (min>current){
-    console.log(current);
+    console.log("Error: You didn't understand anything, try again");
 }else if (current>max){
-    console.log(current);
+    console.log("Error: You didn't understand anything, try again");
 }
 }
