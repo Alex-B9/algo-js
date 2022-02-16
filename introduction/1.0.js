@@ -7,6 +7,6 @@ console.log(8/2); // 8 / 4 = 4
 console.log(5+3); // 5 + 3 = 8 
 console.log(10-4); // 10 - 4 = 6
 console.log(10%3); // 10 % 3 = 1 (3*3+'1')
-console.log(4 **5); // 4 puissance 5 (4*4*4*4*4*4)
+console.log(4 **5); // 4 puissance 5 = 1024 (4*4*4*4*4*4)
 
 
