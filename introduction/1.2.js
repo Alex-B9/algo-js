@@ -1,5 +1,5 @@
-let name0 = "Gérards"
-let firstName = "Lambert"
+let name0 = "Lambert"
+let firstName = "Gérards"
 let city = "Paris"
 
-console.log(`Your name is ${name0} ${firstName} and you live in ${city}`);
+console.log(`Your name is ${firstName} ${name0} and you live in ${city}`);
