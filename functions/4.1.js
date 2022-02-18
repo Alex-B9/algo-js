@@ -1,4 +1,5 @@
 const readlineSync= require("readline-sync");
+// This function takes 2 parameters and designates them in order to calculate the area of a rectangle
 const calcSurface = (length, width) =>{
     return length * width;
 }
