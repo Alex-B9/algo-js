@@ -1,5 +1,4 @@
 const readlineSync= require("readline-sync");
-
 const askTvSeries=()=>{
     let tvSeries ={};
     let cast = 0
@@ -12,5 +11,11 @@ const askTvSeries=()=>{
     }
     return tvSeries;
 }
+const randomizeCast=(tvSeries)=>{
+    tvSeries.castMember = tvSeries.castMember.sort(()=> Math.random() -0.5);
+    return tvSeries;
+}
 let ask = askTvSeries();
-console.log(JSON.stringify(ask, null, 3)); 
+console.log(ask);
+let ask2 = randomizeCast(ask);
+console.log(ask2);
