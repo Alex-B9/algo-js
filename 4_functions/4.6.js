@@ -1,4 +1,5 @@
 const readlineSync=require("readline-sync");
+// Fonction qui donne la valeur factorielle d'un nombre
 function factorielle(a) {
     let fac = 1;
     for (let i = 2; i < a + 1; i++) {

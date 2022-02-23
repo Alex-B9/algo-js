@@ -8,13 +8,3 @@ let yOne=new Number(readlineSync.question("Choose your Y1 : "));
 let xTwo=new Number(readlineSync.question("Choose your X2 : "));
 let yTwo=new Number(readlineSync.question("Choose your Y2 : "));
 console.log(calcDistance(xOne,yOne,xTwo,yTwo));
-
-
-
-
-
-
-
-
-
-
